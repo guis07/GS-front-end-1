@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 
 <head>
@@ -6,203 +7,290 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modo Sobrevivência Offline</title>
 
-    <link rel="stylesheet" href="/cód/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="/cód/style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body>
 
-    <header>
-        <div class="logo">Modo Sobrevivência Offline</div>
+```
+<header>
 
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#problema">Problema</a></li>
-                <li><a href="#tecnologia">Tecnologia</a></li>
-                <li><a href="#objetivos">Objetivos</a></li>
-                <li><a href="#publico">Público-Alvo</a></li>
-                <li><a href="#beneficios">Benefícios</a></li>
-                <li><a href="#aplicacao">Aplicação</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="logo">Modo Sobrevivência Offline</div>
 
-    <section id="inicio" class="hero">
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#problema">Problema</a></li>
+            <li><a href="#tecnologia">Tecnologia</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#publico">Público-Alvo</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#aplicacao">Aplicação</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
-        <div class="hero-text">
+    <div class="temas">
+        <button onclick="temaAzul()"></button>
+        <button onclick="temaVerde()"></button>
+        <button onclick="temaEscuro()"></button>
+    </div>
 
-            <h1>Comunicação Emergencial Sem Internet</h1>
+</header>
 
-            <p>
-                Uma solução tecnológica desenvolvida para auxiliar pessoas
-                durante enchentes, apagões e desastres naturais.
-            </p>
+<section id="inicio" class="hero">
 
-            <a href="#problema" class="btn">
-                Conheça a Solução
-            </a>
+    <div class="hero-text">
 
-        </div>
+        <h1>Comunicação Emergencial Sem Internet</h1>
 
-        <div class="img-1">
-            <img src="/images/img-1.png" alt="Comunicação emergencial">
-        </div>
+        <p>
+            Uma solução tecnológica desenvolvida para auxiliar pessoas
+            durante enchentes, apagões e desastres naturais.
+        </p>
 
-    </section>
+        <a href="#problema" class="btn">
+            Conheça a Solução
+        </a>
 
-    <section id="problema" class="secao">
+    </div>
 
-        <div class="texto">
+    <div class="hero-img">
+        <img src="/images/img-1.png" alt="Comunicação emergencial">
+    </div>
 
-            <h2>Problema</h2>
+</section>
 
-            <p>
-                Em situações de enchentes, deslizamentos e apagões,
-                muitas pessoas ficam sem acesso à internet e telefonia.
-            </p>
+<section id="problema" class="secao">
 
-            <p>
-                Essa falta de comunicação dificulta pedidos de socorro
-                e aumenta o tempo de resposta das equipes de resgate.
-            </p>
+    <div class="texto">
 
-        </div>
+        <h2>Problema</h2>
 
-        <img src="/images/img-2.png" alt="Enchente urbana">
+        <p>
+            Em situações de enchentes, deslizamentos e apagões,
+            muitas pessoas ficam sem acesso à internet e telefonia.
+        </p>
 
-    </section>
+        <p>
+            Essa falta de comunicação dificulta pedidos de socorro
+            e aumenta o tempo de resposta das equipes de resgate.
+        </p>
 
-    <section id="tecnologia" class="secao">
+    </div>
 
-        <img src="/images/img-3.jpg" alt="Arduino GPS e tecnologia">
+    <img src="/images/img-2.png" alt="Enchente urbana">
 
-        <div class="texto">
+</section>
 
-            <h2>Tecnologias Utilizadas</h2>
+<section id="tecnologia" class="secao">
 
-            <p>
-                O projeto utiliza Arduino, GPS e comunicação LoRa para
-                transmitir informações mesmo sem internet.
-            </p>
+    <img src="/images/img-3.jpg" alt="Arduino GPS e tecnologia">
 
-            <p>
-                A solução também utiliza Inteligência Espacial para
-                localizar usuários e auxiliar operações de resgate.
-            </p>
+    <div class="texto">
 
-        </div>
+        <h2>Tecnologias Utilizadas</h2>
 
-    </section>
+        <p>
+            O projeto utiliza Arduino, GPS e comunicação LoRa para
+            transmitir informações mesmo sem internet.
+        </p>
 
-    <section id="objetivos" class="secao">
+        <p>
+            A solução também utiliza Inteligência Espacial para
+            localizar usuários e auxiliar operações de resgate.
+        </p>
 
-        <div class="texto">
+    </div>
 
-            <h2>Objetivos</h2>
+</section>
 
-            <p>
-                Desenvolver uma solução acessível para comunicação
-                emergencial em locais afetados por falhas de conectividade.
-            </p>
+<section id="objetivos" class="secao">
 
-            <p>
-                Reduzir o tempo de localização de vítimas e facilitar
-                o trabalho das equipes de socorro.
-            </p>
+    <div class="texto">
 
-        </div>
+        <h2>Objetivos</h2>
 
-        <img src="/images/img-4.png" alt="Objetivos do projeto">
+        <p>
+            Desenvolver uma solução acessível para comunicação
+            emergencial em locais afetados por falhas de conectividade.
+        </p>
 
-    </section>
+        <p>
+            Reduzir o tempo de localização de vítimas e facilitar
+            o trabalho das equipes de socorro.
+        </p>
 
-    <section id="publico" class="secao">
+    </div>
 
-        <img src="/images/img-5.png" alt="Público alvo">
+    <img src="/images/img-4.png" alt="Objetivos do projeto">
 
-        <div class="texto">
+</section>
 
-            <h2>Público-Alvo</h2>
+<section id="publico" class="secao">
 
-            <p>
-                Comunidades vulneráveis, equipes de resgate,
-                Defesa Civil e moradores de áreas de risco.
-            </p>
+    <img src="/images/img-5.png" alt="Público alvo">
 
-            <p>
-                Também pode ser utilizado por trilheiros,
-                campistas e moradores de regiões isoladas.
-            </p>
+    <div class="texto">
 
-        </div>
+        <h2>Público-Alvo</h2>
 
-    </section>
+        <p>
+            Comunidades vulneráveis, equipes de resgate,
+            Defesa Civil e moradores de áreas de risco.
+        </p>
 
-    <section id="beneficios" class="secao">
+        <p>
+            Também pode ser utilizado por trilheiros,
+            campistas e moradores de regiões isoladas.
+        </p>
 
-        <div class="texto">
+    </div>
 
-            <h2>Benefícios</h2>
+</section>
 
-            <p>
-                Permite solicitar ajuda sem acesso à internet,
-                aumentando a segurança da população.
-            </p>
+<section id="beneficios" class="secao">
 
-            <p>
-                Oferece localização precisa e melhora a tomada
-                de decisão das equipes de resgate.
-            </p>
+    <div class="texto">
 
-        </div>
+        <h2>Benefícios</h2>
 
-        <img src="/images/img-6.png" alt="Benefícios do sistema">
+        <p>
+            Permite solicitar ajuda sem acesso à internet,
+            aumentando a segurança da população.
+        </p>
 
-    </section>
+        <p>
+            Oferece localização precisa e melhora a tomada
+            de decisão das equipes de resgate.
+        </p>
 
-    <section id="aplicacao" class="secao">
+    </div>
 
-        <img src="/images/img-7.png" alt="Aplicação da solução">
+    <img src="/images/img-6.png" alt="Benefícios do sistema">
 
-        <div class="texto">
+</section>
 
-            <h2>Aplicação no Dia a Dia</h2>
+<section id="aplicacao" class="secao">
 
-            <p>
-                Pode ser utilizado durante enchentes, deslizamentos,
-                tempestades e interrupções de comunicação.
-            </p>
+    <img src="/images/img-7.png" alt="Aplicação da solução">
 
-            <p>
-                Também auxilia pessoas em trilhas, áreas rurais
-                e locais sem cobertura móvel.
-            </p>
+    <div class="texto">
 
-        </div>
+        <h2>Aplicação no Dia a Dia</h2>
 
-    </section>
+        <p>
+            Pode ser utilizado durante enchentes, deslizamentos,
+            tempestades e interrupções de comunicação.
+        </p>
 
-    <footer>
+        <p>
+            Também auxilia pessoas em trilhas, áreas rurais
+            e locais sem cobertura móvel.
+        </p>
 
-        <h3>Modo Sobrevivência Offline</h3>
+    </div>
 
-        <p>Sofia Costa RM 570339</p>
-        <p>Guilherme Correia RM 570551</p>
-        <p>Gabriela Gomes RM 568797</p>
-        <p>Sophia Trindade RM 570339</p>
-        <p>Gabriell Santos RM 574134</p>
+</section>
+
+<section id="quiz" class="secao">
+
+    <div class="texto">
+
+        <h2>Quiz de Emergências</h2>
+
+        <p>
+            Teste seus conhecimentos sobre comunicação
+            em situações de desastre.
+        </p>
+
+        <div id="quiz-container"></div>
 
         <br>
 
-        <p>Front-End Design • 2026</p>
+        <button class="btn" onclick="corrigirQuiz()">
+            Ver Resultado
+        </button>
 
-    </footer>
+        <h3 id="resultado"></h3>
+
+    </div>
+
+</section>
+
+<section id="contato" class="secao">
+
+    <div class="texto">
+
+        <h2>Contato</h2>
+
+        <p>
+            Envie sugestões sobre o projeto.
+        </p>
+
+        <form id="formulario">
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Nome">
+
+            <br><br>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="E-mail">
+
+            <br><br>
+
+            <textarea
+                id="mensagem"
+                rows="5"
+                placeholder="Mensagem"></textarea>
+
+            <br><br>
+
+            <button
+                type="submit"
+                class="btn">
+
+                Enviar
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Modo Sobrevivência Offline</h3>
+
+    <p>Sofia Costa RM 570339</p>
+    <p>Guilherme Correia RM 570551</p>
+    <p>Gabriela Gomes RM 568797</p>
+    <p>Sophia Trindade RM 570339</p>
+    <p>Gabriell Santos RM 574134</p>
+
+    <br>
+
+    <p>Front-End Design • 2026</p>
+
+</footer>
+
+<script src="/cód/script.js"></script>
 
 </body>
 
